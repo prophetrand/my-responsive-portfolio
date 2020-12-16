@@ -45,21 +45,25 @@
         </div>
     </nav>
 
-    <!-- Assigning the "container-sm" class to this section defines the element proportions at responsive but specific pixel sizes for all page widths until the small breakpoint is reached at width = 540px. Below this breakpoint, the container size will be fluid meaning it will take up 100% of the page width-->
-    <!--  -->
-    <section class="container-sm bg-light col-sm-8">
-        <!-- The "fs-1" class causes this header text to be the largest (responsive) font size provided by Bootstrap, and "fw-bold" applies a bold style to the text. "pt-3" creates padding of size 3 on top of the element.-->
-        <h2 class="fs-1 fw-bold pt-3">About Me</h2>
+    <section class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/architecture.jpg'); background-repeat: repeat; background-size: cover; background-position: center center;">
+    <!-- This is a blank placeholder row created for spacing. "mb-5" on this element creates a bottom margin of size 5, provided for some aesthetic spacing. -->
+        <div class="row mb-5"></div>
+
+        <!-- Assigning the "container-sm" class to this section defines the element proportions at responsive but specific pixel sizes for all page widths until the small breakpoint is reached at width = 540px. Below this breakpoint, the container size will be fluid meaning it will take up 100% of the page width-->
+        <!-- "col-sm-8" indicates that the container will take up 8/12ths of the screen until the small breakpoint is reached, at which point the container will occupy 11/12ths of the page/screen width-->
+        <div class="container-sm bg-light col-sm-8 col-11 ms-3 p-4">
+            <!-- The "fs-1" class causes this header text to be the largest (responsive) font size provided by Bootstrap, and "fw-bold" applies a bold style to the text. "pt-3" creates padding of size 3 on top of the element.-->
+            <h2 class="fs-1 fw-bold pt-3">About Me</h2>
+            <hr class="my-4"/>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent efficitur varius elit, ut euismod erat convallis ac. Mauris rhoncus ante id diam dictum, laoreet faucibus erat pretium. Praesent efficitur ex odio, eget gravida sapien finibus gravida. Curabitur auctor erat neque. Proin ornare vehicula mattis.</p>
+
+            <p>Ut dictum mi sapien, eget tempor erat laoreet sed. Curabitur et nisl mattis magna lobortis rutrum. Aliquam non ligula quam. Aenean vulputate faucibus ipsum. Nam molestie magna ac viverra aliquet. In et scelerisque nunc. Aenean fermentum tristique pharetra. Mauris eu mi a dolor pretium congue.</p>
+        </div>
         
-        <!-- "my-4" on this horizontal rule element creates top and bottom margins of size 4, provided for some aesthetic spacing. -->
-        <hr class="my-4"/>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent efficitur varius elit, ut euismod erat convallis ac. Mauris rhoncus ante id diam dictum, laoreet faucibus erat pretium. Praesent efficitur ex odio, eget gravida sapien finibus gravida. Curabitur auctor erat neque. Proin ornare vehicula mattis.</p>
-
-        <p>Ut dictum mi sapien, eget tempor erat laoreet sed. Curabitur et nisl mattis magna lobortis rutrum. Aliquam non ligula quam. Aenean vulputate faucibus ipsum. Nam molestie magna ac viverra aliquet. In et scelerisque nunc. Aenean fermentum tristique pharetra. Mauris eu mi a dolor pretium congue.</p>
+        <!-- Another placeholder row to create space under the central element and above the footer.-->
+        <div class="row my-4"></div>
     </section>
-
-
 
 
     <!-- This <script> tag informs the HTML to run the Javascript included in it for certain page elements to animate correctly. The source is again Bootstrap, and contains the  javascript that properly corresponds to the Bootstrap CSS stylesheet referenced in <head> -->
