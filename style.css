@@ -1,4 +1,9 @@
 h1 {
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background: #008080;
+}
+
+h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #008080;
 }

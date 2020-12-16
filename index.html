@@ -19,6 +19,8 @@
         <div class="container-fluid">
             <!-- The resonsive Bootstrap tag "navbar-brand" tells our <h1> what space to occupy despite varying screen sizes. "fw-bold" sets the text to bold, and "text-white" sets the text color to white. I have applied background color and font family stylings in the style.css file. -->
           <h1 class="navbar-brand fw-bold text-white">Rand Hale</h1>
+          
+          <!-- This button and following division define the drop-down navigation menu that will display at any size below the large breakpoint -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -39,12 +41,23 @@
               </li>
               
             </ul>
-            
           </div>
         </div>
-      </nav>
+    </nav>
 
+    <!-- Assigning the "container-sm" class to this section defines the element proportions at responsive but specific pixel sizes for all page widths until the small breakpoint is reached at width = 540px. Below this breakpoint, the container size will be fluid meaning it will take up 100% of the page width-->
+    <!--  -->
+    <section class="container-sm bg-light col-sm-8">
+        <!-- The "fs-1" class causes this header text to be the largest (responsive) font size provided by Bootstrap, and "fw-bold" applies a bold style to the text. "pt-3" creates padding of size 3 on top of the element.-->
+        <h2 class="fs-1 fw-bold pt-3">About Me</h2>
+        
+        <!-- "my-4" on this horizontal rule element creates top and bottom margins of size 4, provided for some aesthetic spacing. -->
+        <hr class="my-4"/>
 
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent efficitur varius elit, ut euismod erat convallis ac. Mauris rhoncus ante id diam dictum, laoreet faucibus erat pretium. Praesent efficitur ex odio, eget gravida sapien finibus gravida. Curabitur auctor erat neque. Proin ornare vehicula mattis.</p>
+
+        <p>Ut dictum mi sapien, eget tempor erat laoreet sed. Curabitur et nisl mattis magna lobortis rutrum. Aliquam non ligula quam. Aenean vulputate faucibus ipsum. Nam molestie magna ac viverra aliquet. In et scelerisque nunc. Aenean fermentum tristique pharetra. Mauris eu mi a dolor pretium congue.</p>
+    </section>
 
 
 
