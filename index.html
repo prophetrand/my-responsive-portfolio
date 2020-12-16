@@ -12,39 +12,30 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <!-- The Bootstrap element defined in here in <nav></nav> serves as the navigation bar at the top of the screen. -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Rand Hale</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <div class="collapse navbar-collapse float-end" id="navbarSupportedContent">
+            <!-- The "ms-auto" class in the unordered list below causes its left margin to automatically fill the space between the list and the prior element, effectively justifying it to the right side of the navbar. The "mb" designations define the bottom margin to be 0 beyond the large breakpoint, and size 2 for anything smaller.-->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="./contact.html">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+                <a class="nav-link" href="./portfolio.html">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <!-- This link is active and disabled while on this page only, meaning it gains the solid-black text color from the "active" style but cannot be clicked on due to the behavior of "disabled." This is applied to the appropriate links on their respective pages so that the user cannot click the link that would otherwise simply direct them to the same page. -->
+                <a class="nav-link active disabled" href="./index.html">About</a>
               </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            
           </div>
         </div>
       </nav>
