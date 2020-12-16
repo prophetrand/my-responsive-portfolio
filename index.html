@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <title>Home/About Me</title>
+
     <!-- Here we reference the Bootstrap stylesheet provided online, which will inform the HTML how to load styles for divisions with classes found in Bootstrap. Corresponding Javascript is linked at the very bottom of the <body>-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./style.css">
 
-    <title>Home/About Me</title>
 </head>
 
 <body>
@@ -17,7 +17,7 @@
     <!-- The Bootstrap element defined in here in <nav></nav> serves as the navigation bar at the top of the screen. -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
         <div class="container-fluid">
-          <h2 class="navbar-brand fw-bold bg-info" href="#">Rand Hale</h2>
+          <h2 class="navbar-brand fw-bold bg-info">Rand Hale</h2>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -27,15 +27,16 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <!-- ms-auto classes in each <li> below cause them to justify right when the dropdown menu is opened. -->
               <li class="nav-item ms-auto">
-                <a class="nav-link" href="./contact.html">Contact</a>
+                <!-- This link is active and disabled while on this page only, meaning it gains the solid-black text color from the "active" style but cannot be clicked on due to the behavior of "disabled." This is applied to the appropriate links on their respective pages so that the user cannot click the link that would otherwise simply direct them to the same page. -->
+                <a class="nav-link active disabled" href="./index.html">About</a>
               </li>
               <li class="nav-item ms-auto">
                 <a class="nav-link" href="./portfolio.html">Portfolio</a>
               </li>
               <li class="nav-item ms-auto">
-                <!-- This link is active and disabled while on this page only, meaning it gains the solid-black text color from the "active" style but cannot be clicked on due to the behavior of "disabled." This is applied to the appropriate links on their respective pages so that the user cannot click the link that would otherwise simply direct them to the same page. -->
-                <a class="nav-link active disabled" href="./index.html">About</a>
+                <a class="nav-link" href="./contact.html">Contact</a>
               </li>
+              
             </ul>
             
           </div>
