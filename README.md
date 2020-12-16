@@ -1,7 +1,9 @@
 # my-responsive-portfolio
 
+# Acknowledgments
+* HTML for each page was validated using the [W3C](https://validator.w3.org/) Markup Validation Service.
 
-
+# Links
 * [Deployed Site](https://prophetrand.github.io/my-responsive-portfolio/)
 * [Repository](https://github.com/prophetrand/my-responsive-portfolio)
 
